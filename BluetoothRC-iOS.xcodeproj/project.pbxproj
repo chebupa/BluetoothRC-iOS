@@ -37,6 +37,13 @@
 			);
 			target = 4654DF762CB6F46200680BC7 /* BluetoothRC-iOS */;
 		};
+		4654DFB32CB6FB3200680BC7 /* Exceptions for "Packages" folder in "BluetoothRC-iOS" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				MyLibrary,
+			);
+			target = 4654DF762CB6F46200680BC7 /* BluetoothRC-iOS */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -56,6 +63,14 @@
 		4654DF9A2CB6F46400680BC7 /* BluetoothRC-iOSUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "BluetoothRC-iOSUITests";
+			sourceTree = "<group>";
+		};
+		4654DFAC2CB6FA4B00680BC7 /* Packages */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4654DFB32CB6FB3200680BC7 /* Exceptions for "Packages" folder in "BluetoothRC-iOS" target */,
+			);
+			path = Packages;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -88,6 +103,7 @@
 		4654DF6E2CB6F46200680BC7 = {
 			isa = PBXGroup;
 			children = (
+				4654DFAC2CB6FA4B00680BC7 /* Packages */,
 				4654DF792CB6F46200680BC7 /* BluetoothRC-iOS */,
 				4654DF902CB6F46400680BC7 /* BluetoothRC-iOSTests */,
 				4654DF9A2CB6F46400680BC7 /* BluetoothRC-iOSUITests */,
@@ -122,6 +138,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				4654DF792CB6F46200680BC7 /* BluetoothRC-iOS */,
+				4654DFAC2CB6FA4B00680BC7 /* Packages */,
 			);
 			name = "BluetoothRC-iOS";
 			packageProductDependencies = (
